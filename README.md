@@ -2,6 +2,9 @@
 
 A full-stack application that integrates with a local AI model (Ollama) to provide AI-powered features.
 
+![image](https://github.com/user-attachments/assets/cc847461-e7bf-4f53-bbf3-08e94b168fa2)
+
+
 ## Prerequisites
 
 - Node.js (v14 or later)
