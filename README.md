@@ -1,6 +1,6 @@
 # Local AI Application
 
-A full-stack application that integrates with a local AI model (Ollama) to provide AI-powered features.
+A full-stack application that integrates with a local AI model (Ollama) to provide AI-powered features. Pinecone based semantic search .
 
 ![image](https://github.com/user-attachments/assets/cc847461-e7bf-4f53-bbf3-08e94b168fa2)
 
@@ -78,6 +78,14 @@ Before starting the application, ensure you have Ollama installed and the deepse
 ### Backend
 - `PORT=8080` - The port on which the backend server will run
 - `MODEL_PATH="http://localhost:11434/api/generate"` - The endpoint for the Ollama API
+- `PINECONE_API_KEY` =
+- `PINECONE_ENVIRONMENT` =
+- `PINECONE_INDEX` =
+- `OPENAI_API_KEY` = (for embedding modal)
+- `OPENAI_ORGANIZATION`  = 
+
+### Frontend 
+VITE_API_BASE_URL=http://localhost:8080/api
 
 ## Project Structure
 
